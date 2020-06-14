@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".samskruthi">
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        android:src="@drawable/cultural1"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15sp"
+        android:layout_marginRight="10sp"
+        android:text="> The Cultural Club of the College is not only the largest club of the College but also the only club that involves every student, irrespective of the faculty they belong to.\n
+> As the name suggests, one of the primary aims of the Cultural Club is to help students keep in touch with the rich cultural values, customs and traditions of our country.\n
+> The Cultural Club aims at moulding the personality of students and exposes them to a wide range of cultural events throughout the year.\n
+> Various skills like leadership, working in a team, sharing success and failure, accepting responsibility are implicit in the working of the club."
+        android:textSize="20sp"
+        android:textColor="#000000"/>
+
+</LinearLayout>

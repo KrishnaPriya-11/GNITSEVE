@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ieee">
+
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        android:src="@drawable/ieee1"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15sp"
+        android:layout_marginRight="10sp"
+        android:text="> IEEE (Institute of Electrical and Electronics Engineers),  is the world’s largest professional association dedicated to advance technological innovation and excellence for benefit of humanity.\n
+Benefits for student member:\n
+>> IEEE Student competitions – from programming to humanitarian to robotics, IEEE membership allows you to compete against your peers and have fun simultaneously\n
+>> IEEE Scholarships, awards and fellowships – enhance your career through a multitude of offerings.\n
+>> IEEE potentials magazine – filled with technical articles and career information (this publication is created just for students)"
+        android:textSize="20sp"
+        android:textColor="#000000"
+        />
+
+</LinearLayout>
